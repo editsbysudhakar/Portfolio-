@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Edits by Sudhakar</title>
+<style>
+*{box-sizing:border-box;margin:0}
+body{background:#0b0a0c;color:#f6f4f2;font:16px/1.6 system-ui,sans-serif;padding:24px 20px 48px;max-width:640px;margin:auto}
+h1{font-size:44px;line-height:1.1;margin:12px 0}
+h2{font-size:24px;margin:36px 0 14px}
+p{color:#b3a9a9}
+.b{display:inline-block;margin:20px 8px 0 0;padding:14px 22px;border-radius:99px;background:#e11d2e;color:#fff;text-decoration:none}
+.o{background:none;border:1.5px solid #e11d2e}
+.c{background:#171214;border:1px solid #33201f;border-radius:12px;padding:16px;margin-bottom:12px}
+.c h3{font-size:18px}
+.c b{color:#ff5a5f}
+li{margin:0 0 12px 18px;color:#b3a9a9}
+li strong{color:#f6f4f2}
+</style></head><body>
+<p>Mobile video editor</p>
+<h1>Sudhakar Sahni</h1>
+<p>Reels, YouTube Shorts aur YouTube video editing, poster design aur AI thumbnail.</p>
+<a class="b" href="https://wa.me/916392194001?text=Hi%2C%20mujhe%20video%20editing%20karwani%20hai">WhatsApp par baat karo</a>
+<a class="b o" href="https://www.instagram.com/edits.by_sudhakar">Instagram dekho</a>
+
+<h2>Kya karta hu</h2>
+<div class="c"><h3>Reels</h3><p>Cuts, transitions, music sync, captions.</p><b>299 rupaye se</b></div>
+<div class="c"><h3>YouTube Shorts</h3><p>Vertical video, fast edit, subtitles.</p><b>299 rupaye se</b></div>
+<div class="c"><h3>YouTube video</h3><p>Raw footage se clean video.</p><b>499 rupaye tak</b></div>
+<div class="c"><h3>Poster design</h3><p>Dukaan, offer, event ya birthday poster.</p><b>Sirf 99 rupaye</b></div>
+<div class="c"><h3>AI thumbnail</h3><p>YouTube ke liye eye-catching thumbnail.</p><b>Sirf 99 rupaye</b></div>
+
+<h2>Kaam kaise hota hai</h2>
+<ol>
+<li><strong>Aap footage bhejo</strong><br>WhatsApp ya Google Drive se.</li>
+<li><strong>Main edit karta hu</strong><br>Chhote video 1 din, bade 2 se 3 din.</li>
+<li><strong>Aap dekho, badlav batao</strong><br>2 baar changes free.</li>
+<li><strong>Final video aapko</strong><br>Payment UPI se, video HD mein.</li>
+</ol>
+
+<h2>Baat karte hain</h2>
+<p>Pehla chhota video sample free mein bana ke dunga.</p>
+<a class="b" href="https://wa.me/916392194001">WhatsApp: 6392194001</a>
+<a class="b o" href="https://www.instagram.com/edits.by_sudhakar">@edits.by_sudhakar</a>
+</body></html>
