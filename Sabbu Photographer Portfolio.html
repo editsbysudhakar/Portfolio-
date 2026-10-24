@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sabbu Photographer | Cinematographer & Wedding Specialist Shahganj</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts for Elegant Cinematic Look -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              black: '#090a0f',
+              card: '#12141c',
+              gold: '#e0a96d',
+              goldLight: '#f6d8a8',
+              goldDark: '#b88144',
+              accent: '#d4af37'
+            }
+          },
+          fontFamily: {
+            heading: ['"Cinzel"', 'serif'],
+            body: ['"Plus Jakarta Sans"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Custom glow and gold effects */
+    .gold-gradient-text {
+      background: linear-gradient(135deg, #fce8bd 0%, #e0a96d 50%, #996c36 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .gold-border {
+      border: 1px solid rgba(224, 169, 109, 0.28);
+    }
+    .gold-glow {
+      box-shadow: 0 0 25px rgba(224, 169, 109, 0.18);
+    }
+  </style>
+</head>
+<body class="bg-brand-black text-gray-200 font-body antialiased selection:bg-brand-gold selection:text-black min-h-screen flex flex-col">
+
+  <!-- ================= TOP NAVIGATION ================= -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-brand-black/90 border-b border-brand-gold/20 px-4 py-3.5 transition-all">
+    <div class="max-w-6xl mx-auto flex items-center justify-between">
+      <a href="#hero" class="flex items-center space-x-2">
+        <span class="text-2xl">📸</span>
+        <div>
+          <span class="font-heading font-bold text-lg tracking-wider text-brand-goldLight block leading-tight">SABBU</span>
+          <span class="text-[9px] uppercase tracking-[0.25em] text-brand-gold/80 block">Photographer</span>
+        </div>
+      </a>
+
+      <!-- Quick Social & Direct Action -->
+      <div class="flex items-center space-x-3">
+        <a href="https://instagram.com/sabux_0x" target="_blank" rel="noopener" class="text-xs px-3 py-1.5 rounded-full border border-brand-gold/40 text-brand-goldLight hover:bg-brand-gold hover:text-black transition duration-300 flex items-center gap-1.5">
+          <span>@sabux_0x</span>
+        </a>
+        <a href="https://wa.me/918756611185?text=Hello%20Sabbu,%20I%20want%20to%20book%20a%20shoot%20for%20an%20event." target="_blank" rel="noopener" class="text-xs px-3.5 py-1.5 rounded-full bg-gradient-to-r from-brand-gold to-brand-goldDark text-black font-semibold shadow-md hover:brightness-110 transition duration-300">
+          Book Shoot
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section id="hero" class="relative pt-12 pb-16 px-4 overflow-hidden border-b border-white/5">
+    <!-- Ambient Backdrop Glow -->
+    <div class="absolute -top-32 left-1/2 -translate-x-1/2 w-96 h-96 bg-brand-gold/10 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-4xl mx-auto text-center relative z-10">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-card gold-border text-brand-gold text-xs font-medium mb-5">
+        <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        Available for Weddings & Tours • Shahganj, UP
+      </div>
+
+      <h1 class="font-heading text-3xl sm:text-5xl md:text-6xl font-extrabold tracking-wide uppercase leading-tight mb-4">
+        Capturing <span class="gold-gradient-text">Royal Moments</span> & Cinematic Memories
+      </h1>
+
+      <p class="text-gray-400 text-sm sm:text-base max-w-xl mx-auto mb-8 font-light leading-relaxed">
+        Specializing in royal Indian weddings, dreamy pre-wedding films, high-energy cinematic reels, and timeless candid moments across Shahganj and beyond.
+      </p>
+
+      <!-- Primary Action Buttons -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-3.5 max-w-md mx-auto">
+        <a href="https://wa.me/918756611185?text=Namaste%20Sabbu%20bhai,%20mujhe%20wedding%20photography%20ke%20dates%20aur%20charges%20janne%20hain." target="_blank" rel="noopener" class="w-full sm:w-auto px-7 py-3 rounded-xl bg-gradient-to-r from-brand-gold via-brand-goldLight to-brand-gold text-black font-bold text-sm tracking-wide shadow-lg hover:shadow-brand-gold/30 hover:scale-[1.02] active:scale-[0.98] transition flex items-center justify-center gap-2">
+          <span>💬</span> WhatsApp Booking
+        </a>
+        <a href="tel:+918756611185" class="w-full sm:w-auto px-7 py-3 rounded-xl gold-border bg-brand-card/80 text-brand-goldLight font-medium text-sm hover:bg-brand-gold/10 active:scale-[0.98] transition flex items-center justify-center gap-2">
+          <span>📞</span> Call +91 87566 11185
+        </a>
+      </div>
+
+      <!-- Quick Trust Indicators -->
+      <div class="grid grid-cols-3 gap-2 max-w-lg mx-auto mt-12 pt-8 border-t border-white/5 text-center">
+        <div>
+          <p class="font-heading text-xl sm:text-2xl text-brand-goldLight font-bold">100%</p>
+          <p class="text-[11px] text-gray-400 uppercase tracking-wider">Cinematic 4K</p>
+        </div>
+        <div>
+          <p class="font-heading text-xl sm:text-2xl text-brand-goldLight font-bold">50+</p>
+          <p class="text-[11px] text-gray-400 uppercase tracking-wider">Weddings Done</p>
+        </div>
+        <div>
+          <p class="font-heading text-xl sm:text-2xl text-brand-goldLight font-bold">Fast</p>
+          <p class="text-[11px] text-gray-400 uppercase tracking-wider">Reel Delivery</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SERVICES OFFERED ================= -->
+  <section class="py-14 px-4 bg-brand-black/60">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-10">
+        <span class="text-brand-gold text-xs uppercase tracking-[0.25em] font-semibold">What We Deliver</span>
+        <h2 class="font-heading text-2xl sm:text-3xl text-white font-bold mt-1">Signature Services</h2>
+        <div class="w-12 h-0.5 bg-brand-gold mx-auto mt-3 rounded-full"></div>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        
+        <!-- Card 1 -->
+        <div class="p-6 rounded-2xl bg-brand-card gold-border hover:border-brand-gold transition duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-brand-gold/10 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition">
+              💍
+            </div>
+            <h3 class="font-heading text-lg font-bold text-brand-goldLight mb-2">Royal Wedding Shoots</h3>
+            <p class="text-gray-400 text-xs sm:text-sm leading-relaxed">
+              Complete wedding ceremony coverage including Jaimala, Mandap, and Bidai with high-end camera rigs and lighting setups.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-white/5 text-[11px] text-brand-gold font-medium">Full Day & Multi-Day Package Available</div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="p-6 rounded-2xl bg-brand-card gold-border hover:border-brand-gold transition duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-brand-gold/10 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition">
+              🎬
+            </div>
+            <h3 class="font-heading text-lg font-bold text-brand-goldLight mb-2">Pre-Wedding Films</h3>
+            <p class="text-gray-400 text-xs sm:text-sm leading-relaxed">
+              Story-driven cinematic romantic music videos with drone coverage, beautiful scenic locations, and custom color grading.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-white/5 text-[11px] text-brand-gold font-medium">Concept & Direction Included</div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="p-6 rounded-2xl bg-brand-card gold-border hover:border-brand-gold transition duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-brand-gold/10 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition">
+              📱
+            </div>
+            <h3 class="font-heading text-lg font-bold text-brand-goldLight mb-2">Viral Cinematic Reels</h3>
+            <p class="text-gray-400 text-xs sm:text-sm leading-relaxed">
+              Fast-paced, high-engagement 9:16 vertical reels edited with trending beat drops for Instagram and YouTube Shorts.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-white/5 text-[11px] text-brand-gold font-medium">Quick 24-Hour Turnaround Option</div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="p-6 rounded-2xl bg-brand-card gold-border hover:border-brand-gold transition duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-brand-gold/10 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition">
+              ✨
+            </div>
+            <h3 class="font-heading text-lg font-bold text-brand-goldLight mb-2">Candid & Portrait</h3>
+            <p class="text-gray-400 text-xs sm:text-sm leading-relaxed">
+              Natural smiles, emotional tears, and spontaneous family moments captured unobtrusively with prime lenses.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-white/5 text-[11px] text-brand-gold font-medium">Authentic & Unfiltered Emotion</div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="p-6 rounded-2xl bg-brand-card gold-border hover:border-brand-gold transition duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-brand-gold/10 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition">
+              🎉
+            </div>
+            <h3 class="font-heading text-lg font-bold text-brand-goldLight mb-2">Events & Celebrations</h3>
+            <p class="text-gray-400 text-xs sm:text-sm leading-relaxed">
+              Haldi, Mehendi, Sangeet nights, ring ceremonies, and anniversary parties covered with vibrant colors and energy.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-white/5 text-[11px] text-brand-gold font-medium">Haldi & Sangeet Specials</div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="p-6 rounded-2xl bg-brand-card gold-border hover:border-brand-gold transition duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-brand-gold/10 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition">
+              🎞️
+            </div>
+            <h3 class="font-heading text-lg font-bold text-brand-goldLight mb-2">Traditional Album & Teasers</h3>
+            <p class="text-gray-400 text-xs sm:text-sm leading-relaxed">
+              Full traditional video documentation alongside modern high-definition photo albums ready for generational keepsake.
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-white/5 text-[11px] text-brand-gold font-medium">Glossy & Matte Finishes</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PORTFOLIO SHOWCASE GALLERY ================= -->
+  <section class="py-14 px-4">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex flex-col sm:flex-row items-center justify-between mb-8 gap-4">
+        <div>
+          <span class="text-brand-gold text-xs uppercase tracking-[0.25em] font-semibold">Glimpse Of Work</span>
+          <h2 class="font-heading text-2xl sm:text-3xl text-white font-bold">Featured Frames</h2>
+        </div>
+        <a href="https://instagram.com/sabux_0x" target="_blank" rel="noopener" class="text-xs px-4 py-2 rounded-xl gold-border bg-brand-card text-brand-goldLight hover:bg-brand-gold hover:text-black transition">
+          View All Reels on Instagram ↗
+        </a>
+      </div>
+
+      <!-- Photo Cards Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        
+        <!-- Showcase Item 1 -->
+        <div class="relative rounded-2xl overflow-hidden bg-brand-card group aspect-[4/5] border border-white/10">
+          <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=800&q=80" alt="Royal Bride Portrait" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90" onerror="this.src='https://placehold.co/600x750/12141c/e0a96d?text=Royal+Bride+Portrait'">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-end p-5">
+            <span class="text-[10px] uppercase font-bold tracking-widest text-brand-gold">Royal Bride</span>
+            <h4 class="text-white font-heading font-semibold text-base">Candid Bridal Elegance</h4>
+            <p class="text-gray-300 text-xs mt-0.5">Shahganj Palace Wedding</p>
+          </div>
+        </div>
+
+        <!-- Showcase Item 2 -->
+        <div class="relative rounded-2xl overflow-hidden bg-brand-card group aspect-[4/5] border border-white/10">
+          <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80" alt="Pre Wedding Sunset" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90" onerror="this.src='https://placehold.co/600x750/12141c/e0a96d?text=Pre+Wedding+Shoot'">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-end p-5">
+            <span class="text-[10px] uppercase font-bold tracking-widest text-brand-gold">Pre-Wedding</span>
+            <h4 class="text-white font-heading font-semibold text-base">Golden Hour Romance</h4>
+            <p class="text-gray-300 text-xs mt-0.5">Cinematic Love Story</p>
+          </div>
+        </div>
+
+        <!-- Showcase Item 3 -->
+        <div class="relative rounded-2xl overflow-hidden bg-brand-card group aspect-[4/5] border border-white/10">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80" alt="Jaimala Ceremony" class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90" onerror="this.src='https://placehold.co/600x750/12141c/e0a96d?text=Jaimala+Ceremony'">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-end p-5">
+            <span class="text-[10px] uppercase font-bold tracking-widest text-brand-gold">Rituals & Mandap</span>
+            <h4 class="text-white font-heading font-semibold text-base">Vibrant Jaimala Blast</h4>
+            <p class="text-gray-300 text-xs mt-0.5">Traditional Grandeur</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= BOOKING WORKFLOW ================= -->
+  <section class="py-12 px-4 bg-brand-card/40 border-y border-white/5">
+    <div class="max-w-4xl mx-auto text-center">
+      <span class="text-brand-gold text-xs uppercase tracking-[0.2em] font-semibold">Simple Process</span>
+      <h3 class="font-heading text-xl sm:text-2xl text-white font-bold mt-1 mb-8">How to Book Dates</h3>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
+        <div class="p-5 rounded-xl bg-brand-card gold-border">
+          <span class="font-heading text-2xl font-bold text-brand-gold">01</span>
+          <h4 class="font-semibold text-white mt-1 mb-1">Check Date Availability</h4>
+          <p class="text-xs text-gray-400">Send your wedding date and venue location on WhatsApp to confirm slot.</p>
+        </div>
+        <div class="p-5 rounded-xl bg-brand-card gold-border">
+          <span class="font-heading text-2xl font-bold text-brand-gold">02</span>
+          <h4 class="font-semibold text-white mt-1 mb-1">Select Package</h4>
+          <p class="text-xs text-gray-400">Choose custom coverage: Candid, Drone, Cinematic Reel edits, or Albums.</p>
+        </div>
+        <div class="p-5 rounded-xl bg-brand-card gold-border">
+          <span class="font-heading text-2xl font-bold text-brand-gold">03</span>
+          <h4 class="font-semibold text-white mt-1 mb-1">Lock With Token</h4>
+          <p class="text-xs text-gray-400">Confirm with advance token and let Sabbu handle all visual magic.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT & LOCATION CARD ================= -->
+  <section class="py-14 px-4">
+    <div class="max-w-3xl mx-auto p-8 rounded-3xl bg-brand-card gold-border relative overflow-hidden text-center gold-glow">
+      <div class="absolute -right-20 -bottom-20 w-60 h-60 bg-brand-gold/15 rounded-full blur-2xl pointer-events-none"></div>
+
+      <span class="text-2xl mb-2 inline-block">🎥</span>
+      <h3 class="font-heading text-2xl sm:text-3xl font-bold text-white mb-2">Let’s Make Your Wedding Timeless</h3>
+      <p class="text-gray-400 text-sm max-w-md mx-auto mb-6">
+        Dates fill up fast during the wedding season. Reach out directly to book your shoot in Shahganj or nearby districts.
+      </p>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-3">
+        <!-- Direct WhatsApp -->
+        <a href="https://wa.me/918756611185?text=Hello%20Sabbu%20Photographer,%20mujhe%20booking%20ki%20detail%20chahiye." target="_blank" rel="noopener" class="w-full sm:w-auto px-6 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-sm transition flex items-center justify-center gap-2">
+          <span>💬</span> Chat on WhatsApp
+        </a>
+
+        <!-- Instagram Profile -->
+        <a href="https://instagram.com/sabux_0x" target="_blank" rel="noopener" class="w-full sm:w-auto px-6 py-3 rounded-xl bg-gradient-to-r from-purple-600 via-pink-600 to-amber-600 text-white font-semibold text-sm transition flex items-center justify-center gap-2">
+          <span>📸</span> Follow @sabux_0x
+        </a>
+
+        <!-- Direct Phone -->
+        <a href="tel:+918756611185" class="w-full sm:w-auto px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold text-sm transition flex items-center justify-center gap-2">
+          <span>📞</span> +91 87566 11185
+        </a>
+      </div>
+
+      <div class="mt-8 pt-6 border-t border-white/10 flex items-center justify-center gap-2 text-xs text-gray-400">
+        <span>📍</span>
+        <span>Based in <strong>Shahganj, Jaunpur (UP)</strong> • Available for Destination Shoots</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PERSISTENT MOBILE BOTTOM ACTION BAR ================= -->
+  <div class="sticky bottom-0 z-40 bg-brand-black/95 backdrop-blur-md border-t border-brand-gold/30 px-4 py-3 sm:hidden">
+    <div class="flex items-center gap-2">
+      <a href="tel:+918756611185" class="flex-1 py-2.5 rounded-xl border border-brand-gold/40 text-brand-goldLight text-xs font-semibold text-center flex items-center justify-center gap-1.5 active:bg-brand-gold/20">
+        <span>📞</span> Call Now
+      </a>
+      <a href="https://wa.me/918756611185?text=Namaste%20Sabbu%20bhai,%20shoot%20book%20karna%20hai." target="_blank" rel="noopener" class="flex-1 py-2.5 rounded-xl bg-gradient-to-r from-brand-gold to-brand-goldDark text-black text-xs font-bold text-center flex items-center justify-center gap-1.5 shadow-md active:scale-95">
+        <span>💬</span> WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="mt-auto py-6 border-t border-white/5 text-center text-xs text-gray-500">
+    <p>© 2026 Sabbu Photographer • All Rights Reserved.</p>
+    <p class="mt-1 text-[11px] text-gray-600">Created with passion in Shahganj</p>
+  </footer>
+
+</body>
+</html>
